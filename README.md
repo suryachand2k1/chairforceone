@@ -16,6 +16,7 @@ The controller is designed to maintain a safe and adaptive following distance be
 - **controller_frequency**: Frequency at which the controller updates, determining the time intervals for dynamic adjustments.
 - **error_for_max_accel**: Threshold value that, when exceeded, triggers the application of the ego’s maximum acceleration.
 - **max_decel_space_gap**: Additional buffer in the space gap, activated when the ego needs to decelerate sharply for safety.
+- 
 
 ## Current Parameter Values for the Controller
 - **lead_vel**: Sensor input, calculated from radar velocity of the sensor reading.
@@ -26,7 +27,7 @@ The controller is designed to maintain a safe and adaptive following distance be
 - **min_braking_points_gap**: 30 m (constant).
 - **min_space_gap**: 20 m (constant).
 - **ego_max_accel**: 4 m/s² (constant).
-- **speed_limit**: Currently unused, so no set value.
+- **speed_limit**: - 30 m/s (constant)
 - **controller_frequency**: 5 Hz (constant).
 - **error_for_max_accel**: 250 m (constant).
 - **max_decel_space_gap**: 2 m (constant).
