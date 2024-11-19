@@ -1,0 +1,1 @@
+The controller is designed to maintain a safe and adaptive following distance between the ego and lead vehicles by dynamically adjusting the ego vehicle’s acceleration and deceleration based on their respective braking capabilities.
